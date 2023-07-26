@@ -37,26 +37,3 @@ menuBtn.addEventListener('click', () => {
     menuOpen = false;
   }
 });
-
-
-
-
-
-
-// const menuBtn = document.querySelector('.menu-btn');
-// const menuContent = document.querySelector('.menu-content');
-// let menuOpen = false;
-
-// menuBtn.addEventListener('click', () => {
-//   if (!menuOpen) {
-//     menuBtn.classList.add('open');
-//     menuContent.classList.add('visible'); // Add the 'visible' class to show the menu content
-
-//     menuOpen = true;
-//   } else {
-//     menuBtn.classList.remove('open');
-//     menuContent.classList.remove('visible'); // Remove the 'visible' class to hide the menu content
-
-//     menuOpen = false;
-//   }
-// });
