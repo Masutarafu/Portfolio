@@ -107,7 +107,9 @@
     height: 93%;
     opacity: 0.5;
   }
-  
+  #about-page{
+    color: #800080;
+  }
   li a {
     display: block;
     color: #555;
