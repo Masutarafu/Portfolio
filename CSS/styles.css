@@ -102,6 +102,11 @@
   .menu-content.visible {
     display: block;
   }
+  .menu-content svg{
+    width: 200%;
+    height: 93%;
+    opacity: 0.5;
+  }
   
   li a {
     display: block;
@@ -109,6 +114,7 @@
     padding: 8px 16px;
     text-decoration: none;
   }
+
   
   /* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY */
   /* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY *//* BODY */
@@ -151,7 +157,7 @@
     color: #111;
     font-size: 150%;
     width: 80%;
-    margin: 0 10% 20px 10%;
+    margin: 0 10% 10px 10%;
     padding: 0;
     line-height: 1.5;
   }
@@ -194,7 +200,40 @@
     cursor: pointer;
     margin: 10px 0 0 0;
   }
-
+  .under-intro{
+    width: 80%;
+    margin: 100px 10%;
+  }
+  .under-intro h2{
+    text-align: left;
+    margin: 0 0 30px 0;
+  }
+  .under-intro h2 hr{
+    width: 35%;
+  }
+  .under-intro-mini-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+  }
+  .under-intro-mini-section svg{
+    width: 40px;
+    height: 40px;
+  }
+  .under-intro-mini-section section{
+    width: 80%;
+    text-align: left;
+  }
+  .under-intro-mini-section section h4{
+    color: #111;
+    font-size: large;
+    margin: 0 0 10px 0;
+  }
+  .under-intro-mini-section section p{
+    color: #777;
+    word-break: break-all;
+  }
 }
 
 
