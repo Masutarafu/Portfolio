@@ -107,14 +107,14 @@
     height: 93%;
     opacity: 0.5;
   }
+  #about-page{
+    color: #800080;
+  }
   li a {
     display: block;
     color: #555;
     padding: 8px 16px;
     text-decoration: none;
-  }
-  #about-page{
-    color: #800080;
   }
 
   
@@ -191,6 +191,10 @@
     cursor: pointer;
     margin: 0;
   }
+  .download_cv_btn a{
+    color: inherit;
+    text-decoration: none;
+  }
   .contact_btn{
     font-size: 16px;
     color: #777777;
@@ -228,7 +232,7 @@
     text-align: left;
   }
   .under-intro-mini-section section h4{
-    color: #111;
+    color: #333;
     font-size: large;
     margin: 0 0 10px 0;
   }
@@ -236,17 +240,85 @@
     color: #777;
     word-break: break-all;
   }
+  .facts-intro{
+    width: 80%;
+    margin: 100px 10%;
+  }
+  .facts-intro h2{
+    text-align: left;
+    margin: 0 0 30px 0;
+  }
+  .facts-intro h2 hr{
+    width: 35%;
+  }
+  .facts-intro-section{
+    height: 250px;
+    width: 100%;
+    border: 3px solid #eee;
+    border-radius: 12px;
+    margin: 0 0 15px 0;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* box-shadow: #ddd 0px 2px 8px; */
+  }
+  .facts-intro-section.clicked {
+    box-shadow: #ddd 0px 2px 8px;
+    transform: scale(1.05); 
+  }
+  .facts-intro-section svg{
+    width: 40px;
+    height: 40px;
+    margin: 30px 0 20px 0;
+  }
+  .facts-intro-section section h4{
+    color: #333;
+    font-size: large;
+    margin: 0 0 20px 0;
+  }
+  .facts-intro-section section p{
+    color: #ccc;
+    font-size: 300%;
+  }
+
+  /* styles.css */
+  #backToTopBtn {
+    display: none; /* Hide the button initially */
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #fff;
+    /* color: #fff; */
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: #bbb 0px 2px 8px;
+  }
+  #backToTopBtn svg{
+    width: 30px;
+    height: 30px;
+  }
+  footer{
+    background-color: rgb(252, 252, 252);
+    border-top: 1px solid #eee;
+    text-align: center;
+  }
+  /* footer section{
+    text-align: center;
+  } */
+  footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+    margin: 10px auto 0;
+    font-size: small;
+  }
+  footer p{
+    margin: 10px 0 20px 0;
+    font-size: small;
+  }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
