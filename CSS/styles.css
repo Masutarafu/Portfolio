@@ -166,12 +166,12 @@
   .intro_section > h5{
     text-align: left;
     color: #777;
-    width: 80%;
-    margin: 0 10% 0 10%;
+    width: 95%;
+    margin: 0 0 0 5%;
     font-size: 100%;
     font-weight: lighter;
     line-height: 1.5;
-    word-break: break-all;
+    hyphens: auto;
   }
   .introbutt_section{
     display: flex;
@@ -238,7 +238,8 @@
   }
   .under-intro-mini-section section p{
     color: #777;
-    word-break: break-all;
+    hyphens: auto;
+    /* word-break: break-all; */
   }
   .facts-intro{
     width: 80%;
