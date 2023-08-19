@@ -7,7 +7,7 @@ window.addEventListener('load', function() {
     prioritySection.style.display = 'block';
     setTimeout(function() {
       prioritySection.style.opacity = 1;
-    }, 500);
+    }, 1000);
   
     // Wait for the initial section to appear and then start fading out
     setTimeout(function() {
