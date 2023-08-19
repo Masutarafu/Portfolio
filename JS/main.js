@@ -17,8 +17,12 @@ window.addEventListener('load', function() {
     // Load the remaining section after transitions are complete
     setTimeout(function() {
       prioritySection.style.display = 'none';
-      document.getElementById('mainSection').style.display = 'block';
-    }, 3000); // Adjust timing as needed
+      const mainPageSection = document.getElementById('mainSection');
+      mainPageSection.style.display = 'block';
+      setTimeout(function() {
+        mainPageSection.style.opacity = 1;
+      }, 500)
+    }, 3500); // Adjust timing as needed
   });  
     
 
