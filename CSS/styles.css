@@ -17,8 +17,11 @@
   width: 25vh;
   height: 50vh;
 }
+
 #mainSection{
   display: none;
+  opacity: 0;
+  transition: opacity 1s ease; /* Add a fade-out transition */
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -342,6 +345,7 @@
   /* RESUME *//* RESUME *//* RESUME *//* RESUME *//* RESUME *//* RESUME *//* RESUME *//* RESUME *//* RESUME */
   .resume{
     text-align: center;
+    
   }
 
 
