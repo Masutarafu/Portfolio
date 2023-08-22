@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
     // Wait for the initial section to appear and then start fading out
     setTimeout(function() {
       prioritySection.style.opacity = 0;
-    }, 2000); // Adjust timing as needed
+    }, 1800); // Adjust timing as needed
   
     // Load the remaining section after transitions are complete
     setTimeout(function() {
@@ -21,8 +21,8 @@ window.addEventListener('load', function() {
       mainPageSection.style.display = 'block';
       setTimeout(function() {
         mainPageSection.style.opacity = 1;
-      }, 500)
-    }, 3500); // Adjust timing as needed
+      }, 200)
+    }, 2500); // Adjust timing as needed
   });  
     
 
@@ -161,6 +161,9 @@ document.addEventListener('click', (event) => {
     });
 });
 
+// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border
+// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border
+
 
 
 // Back To Top Button// Back To Top Button// Back To Top Button// Back To Top Button// Back To Top Button
@@ -180,4 +183,3 @@ window.addEventListener('scroll', () => {
 backToTopButton.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-
