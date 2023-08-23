@@ -65,6 +65,24 @@ menuLinks.forEach(link => {
 
 
 
+// ABOUT PAGE CONTACT BUTTON// ABOUT PAGE CONTACT BUTTON// ABOUT PAGE CONTACT BUTTON// ABOUT PAGE CONTACT BUTTON
+// ABOUT PAGE CONTACT BUTTON// ABOUT PAGE CONTACT BUTTON// ABOUT PAGE CONTACT BUTTON// ABOUT PAGE CONTACT BUTTON
+document.addEventListener("DOMContentLoaded", function () {
+  const showOverlayButton = document.getElementById("showOverlay");
+  const overlay = document.getElementById("overlay");
+  const closeOverlayButton = document.getElementById("closeOverlay");
+
+  showOverlayButton.addEventListener("click", function () {
+      overlay.classList.remove("hidden");
+  });
+
+  closeOverlayButton.addEventListener("click", function () {
+      overlay.classList.add("hidden");
+  });
+});
+
+
+
 //Single Page Working//Single Page Working//Single Page Working//Single Page Working//Single Page Working
 //Single Page Working//Single Page Working//Single Page Working//Single Page Working//Single Page Working
 document.addEventListener("DOMContentLoaded", function () {
@@ -160,9 +178,6 @@ document.addEventListener('click', (event) => {
         }
     });
 });
-
-// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border
-// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border// Form Inout Border
 
 
 
