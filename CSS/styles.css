@@ -2125,12 +2125,12 @@ h1, h2, h3, h4{
   }
   .htmlFill {
     height: 100%;
-    width: 90%;
+    width: 70%;
     background-color: #800080;
   }
   .cssFill {
     height: 100%;
-    width: 95%;
+    width: 70%;
     background-color: #800080;
   }
   .jsFill {
