@@ -25,7 +25,35 @@ window.addEventListener('load', function() {
     }, 2500); // Adjust timing as needed
   });  
     
+// ...existing code...
+(function () {
+    const texts = [
+        'Founder/CEO at TurrisTech',
+        'Mobile App Developer',
+        'Front-end Web Developer',
+        'Graphic Designer',
+        'Problem Solver',
+        'Open to opportunities'
+        // 'Dart & Flutter Enthusiast',
+    ];
 
+    const p = document.getElementById('roleText');
+    if (!p) return; // ensure element exists
+
+    let i = 1; // next index
+    const intervalMs = 3000;
+    const fadeMs = 800; // match CSS transition
+
+    setInterval(() => {
+        p.classList.add('fade-out');
+        setTimeout(() => {
+            p.textContent = texts[i % texts.length];
+            p.classList.remove('fade-out');
+            i++;
+        }, fadeMs);
+    }, intervalMs);
+})();
+ // ...existing code...
 
 //Hamburger Menu//Hamburger Menu//Hamburger Menu//Hamburger Menu//Hamburger Menu//Hamburger Menu
 //Hamburger Menu//Hamburger Menu//Hamburger Menu//Hamburger Menu//Hamburger Menu//Hamburger Menu
