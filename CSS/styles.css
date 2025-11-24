@@ -201,6 +201,16 @@ h1, h2, h3, h4{
     display: flex;
     flex-direction: column;
   }
+
+  #roleText {
+   transition: opacity 800ms ease;
+   opacity: 1;
+ }
+
+ #roleText.fade-out {
+  opacity: 0;
+ }
+
   .intro_section h1 + p{
     font-size: 90%;
     padding: 0;
@@ -309,8 +319,6 @@ h1, h2, h3, h4{
     margin-left: 0;
     width: 100%;
   }
-
-
 
   .under-intro{
     width: 80%;
